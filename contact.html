@@ -4,80 +4,81 @@
 
 <head>
 
-<meta charset="UTF-8">
+  <meta charset="UTF-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Your Page Title</title>
+  <title>Your Page Title</title>
 
-<link rel="stylesheet" href="css/style.css">  
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
 
-<header> 
-     <div class="flexcontainer"></div>
-      <div id="headername">
-        <p> David Barnett</p>
-      </div>  
-      <nav> 
-        <ul>
-          <li>Home</a></li>
-          <li>About</a></li>
-          <li>Contact</a></li>
-        </ul>
-      </nav>
+  <header>
+    <div class="flexcontainer"></div>
+    <div id="headername">
+      <p> David Barnett</p>
     </div>
-</header>
-<main>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    </div>
+  </header>
+  <main>
     <section>
-        <h1> Contact Us</h1>
-        <p>Have questions? Fill out the form below and we'll get back to you soon!</p>
- </section>
- <h2>Send Us a Message</h2>
- <div class="flexcontainer"></div>
- <div class="flexItem">
- <p> full name</p>
-<p> email address</p>
-<p> subject</p>
-<p> message</p>
- </div>
+      <h1 id="jump1"> Contact Us</h1>
+      <p>Have questions? Fill out the form below and we'll get back to you soon!</p>
+    </section>
     <section>
-        <h3>Contact Information</h3>
-        <div class="flexcontainer"> </div>
-        <div class="circleblue">&#x1F4E7;
-        <h4>Email </h4>
-        <p> info@student.edu</p>
+      <h2 id="jump2">Send Us a Message</h2>
+      <div class="flexcontainer">
+        <div class="flexItem shadow">
+          <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+
+            <form action="/action_page.php" auto complete="on">
+              <label for="fname">Full Name*:</label>
+              <input type="text" id="name*" name="name" value="Enter Your Full Name"><br><br>
+
+              <label for="email*">Email*:</label><br>
+              <input type="email" id="email*" name="email" autocomplete="off"><br><br>
+
+              <label for="subject"> Subject: Choose Email Subject </label><br>
+              <select id="subject" name="subject">
+                <option value="general">General Inquiry</option>
+                <option value="support">Support Request</option>
+                <option value="feedback">Feedback</option>
+              </select><br><br>
+
+              <label for="message">message:</label><br>
+              <textarea id="message" name="message"></textarea><br><br>
+
+              <input type="submit" value="submit">
+
+            </form>
         </div>
-        <div class="circlegreen">&#x1F4F1;
-        <h4>Phone </h4>
-        <p> (555) 123-4567</p>
-        </div>
-        <div class="circlepurple">&#x1F4CD;
-        <h4>Address </h4>
-        <p> 123 Leanring lane, Student City, SC 12345</p>  
 
+        <div class="flexitem">
+          <div class="contactinfo shadow">
+            <h4>Contact Information</h4>
+            <P> <strong> Email</strong> <br> info@student.edu </P>
+            <p><strong>Phone:</strong> (555) 123-4567</p>
+            <p><strong>Address:</strong> 123 Learning lane, Student City, SC 12345</p>
+          </div>
 
+          <div class="flexitem">
+            <div class="officehrs shadows">
+              <h4>Office Hours</h4>
 
-    </section>
-
-    <section>
-
-
-
-    </section>
-
-    <section>
-         <h5> Office Hours </h5>
-        <div class="flexcontainer"> </div>
-        <div class="rectangleblue"
-       
-        <ul>
-            <li>Monday - Friday: 9:00 AM - 5:00 PM</li>
-            <li>Saturday: 10:00 AM - 2:00 PM</li>
-            <li>Sunday: Closed</li>
-        </ul>
+              <p>Monday-Friday......9:00 AM - 5:00 PM</p>
+              <p>Saturday........10:00 AM - 2:00 PM</p>
+              <p>Sunday.............. Closed</p>
+            </div>
 
 
     </section>
@@ -88,16 +89,16 @@
 
 
 
-</main>
-<footer>
-<p>© 2026 Student Portfolio. All rights reserved.</p>
- <ul>
-          <li>>Jump Link 1</a></li>
-          <li>Jump Link 2</a></li>
-        </ul>
+  </main>
+  <footer>
+    <p id="footertext">© 2026 Student Portfolio. All rights reserved.</p>
+    <ul id="footernav">
+      <li><a href="#jump1">Jump Link 1</a></li>
+      <li><a href="#jump2">Jump Link 2</a></li>
+    </ul>
 
-</footer>
-</body> 
+  </footer>
+</body>
 
 
 </html>

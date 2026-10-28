@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header {
+    background-color: #1D4ed8;
+    padding: 5px 150px 5px;
+
+
+}
+
+#headername {
+    -webkit-flex: 1 -ms-flex: 1;
+    flex: 1;
+    color: white;
+    font-size: 32px;
+    font-weight: 800;
+
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    color: white;
+}
+
+
+
+nav a {
+    color: white;
+
+}
+
+nav ul li {
+    padding: 5px 25px 5px;
+    list-style: none;
+    display: inline-block;
+
+
+}
+
+
+main {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+
+.flexcontainer {
+    display -webkit-flex;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.flexitem {
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+section {
+    padding: 32px;
+    margin: 20px 0px 20px;
+}
+
+.shadow {
+    box-shadow: 10px 10px 5px lightgray;
+    border: 1px solid gray;
+    border-radius: 20px;
+
+}
+
+#heroIcon {
+    background-color: #1D4ed8;
+    border-radius: 10px;
+    font-size: 150px;
+
+    margin: 0;
+    height: 200px;
+    text-align: center;
+
+
+}
+
+.circleblue {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #1D4ed8;
+    text-align: center;
+    font-size: 60px;
+    margin: 0%;
+    padding: 0%;
+
+
+}
+
+.circlegreen {
+
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #15803d;
+    text-align: center;
+    font-size: 60px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.circlepurple {
+
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #7e22ce;
+    text-align: center;
+    font-size: 60px;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #111827;
+    padding: 20px 150px 20px;
+    color: white;
+    color: white;
+}
+
+footer a {
+    color: white;
+    diplay: -webkit-flex;
+    display: flex;
+}
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 25px 5px;
+}
+
+#footertext {
+    -webkit-flex: 1;
+    flex: 1;
+    -ms-flex: 1;
+
+}
+
+#footernav {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.listcheckmark {
+    list-style: none;
+    margin: 25px;
+}
+
+ul.listcheckmark li:before {
+    content: "✓ ";
+    font-weight: bold;
+    left: 25px;
+
+
+}
+
+button {
+    background-color: #1D4ed8;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: black;
+}
